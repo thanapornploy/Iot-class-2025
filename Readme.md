@@ -122,3 +122,11 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 3. Kafka → Processing → ML Model (Training & Inference)
 4. ML Predictions → Data Store → Visualization
 5. User sees output → Takes action (manual or automatic)
+
+
+## Containers
+1. Server [https://github.com/hanattaw/Iot-class-2025-server]
+2. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway]
+3. Sensor
+4. Batch ML
+5. Online ML
