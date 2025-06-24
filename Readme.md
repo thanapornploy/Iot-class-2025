@@ -116,7 +116,7 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 
 ## 🔁 🔄 Data Flow Summary
 
-```plaintext
+
 1. IoT Devices → MQTT or LoRa → MQTT Broker
 2. MQTT → Kafka (Streaming Ingestion)
 3. Kafka → Processing → ML Model (Training & Inference)
@@ -125,8 +125,8 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 
 
 ## Containers
-1. Server (https://github.com/hanattaw/Iot-class-2025-server)
-2. Gateway (https://github.com/hanattaw/Iot-class-2025-gateway)
+1. Server [https://github.com/hanattaw/Iot-class-2025-server](https://github.com/hanattaw/Iot-class-2025-server)
+2. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway](https://github.com/hanattaw/Iot-class-2025-gateway)
 3. Sensor
 4. Batch ML
 5. Online ML
