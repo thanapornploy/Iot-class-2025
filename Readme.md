@@ -127,6 +127,6 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 ## Containers
 1. Server [https://github.com/hanattaw/Iot-class-2025-server](https://github.com/hanattaw/Iot-class-2025-server)
 2. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway](https://github.com/hanattaw/Iot-class-2025-gateway)
-3. Sensor
+3. Sensor [https://github.com/hanattaw/Iot-class-2025-sensor] (https://github.com/hanattaw/Iot-class-2025-sensor)
 4. Batch ML
 5. Online ML
