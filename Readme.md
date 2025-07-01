@@ -126,7 +126,27 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 
 ## Containers
 1. Server [https://github.com/hanattaw/Iot-class-2025-server](https://github.com/hanattaw/Iot-class-2025-server)
-2. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway](https://github.com/hanattaw/Iot-class-2025-gateway)
-3. Sensor [https://github.com/hanattaw/Iot-class-2025-sensor] (https://github.com/hanattaw/Iot-class-2025-sensor)
-4. Batch ML
-5. Online ML
+1. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway](https://github.com/hanattaw/Iot-class-2025-gateway)
+1. Publisher [https://github.com/hanattaw/Iot-class-2025-publisher] (https://github.com/hanattaw/Iot-class-2025-publisher)
+1. MQTT-Bridge-Kafka [https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka] (https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka)
+1. Kafa-to-JSONL [https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl] (https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl)
+1. Train Model 
+1. Prediction
+1. Online ML
+
+
+
+
+<!-- 
+```json
+{"id": "000000000", "name": "iot_sensor_0", "place_id": "000000000",
+ "payload": 
+    {"temperature": 34.36, 
+    "humidity": 44, 
+    "pressure": 1026, 
+    "fan_speed": 3, 
+    "timestamp": 1751210914954, 
+    "date": "2025-06-29T15:28:34"
+    }
+}
+``` -->
