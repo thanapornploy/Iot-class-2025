@@ -133,6 +133,7 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 1. Train Model 
 1. Prediction
 1. Online ML
+1. Device https://github.com/hanattaw/Iot-class-2025-device] (https://github.com/hanattaw/Iot-class-2025-device)
 
 
 
