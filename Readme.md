@@ -130,6 +130,7 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 1. Publisher [https://github.com/hanattaw/Iot-class-2025-publisher] (https://github.com/hanattaw/Iot-class-2025-publisher)
 1. MQTT-Bridge-Kafka [https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka] (https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka)
 1. Kafa-to-JSONL [https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl] (https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl)
+1. Subscriber [https://github.com/hanattaw/Iot-class-2025-subscriber] (https://github.com/hanattaw/Iot-class-2025-subscriber)
 1. Train Model 
 1. Prediction
 1. Online ML
