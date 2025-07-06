@@ -124,31 +124,61 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 5. User sees output → Takes action (manual or automatic)
 
 
+
+## Managing contailers
+
+### 1. Remove all containers
+
+```docker
+# list all containers
+docker container ls -a
+
+# remove all containers
+docker container prune
+```
+### 1. Remove all images
+
+```docker
+# list all images
+docker image ls -a
+
+# remove all images
+docker image prune -a 
+```
+
+### 1. Remove all volumes
+
+```docker
+# list all volumes
+docker volume ls -a
+
+# remove all volumes
+docker volume prune -a 
+```
+
+### 1. Remove all networks
+
+```docker
+# list all networks
+docker network ls -a
+
+# remove all networks
+docker network prune
+```
+
+
 ## Containers
 1. Server [https://github.com/hanattaw/Iot-class-2025-server](https://github.com/hanattaw/Iot-class-2025-server)
 1. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway](https://github.com/hanattaw/Iot-class-2025-gateway)
-1. Publisher [https://github.com/hanattaw/Iot-class-2025-publisher] (https://github.com/hanattaw/Iot-class-2025-publisher)
-1. MQTT-Bridge-Kafka [https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka] (https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka)
-1. Kafa-to-JSONL [https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl] (https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl)
-1. Subscriber [https://github.com/hanattaw/Iot-class-2025-subscriber] (https://github.com/hanattaw/Iot-class-2025-subscriber)
-1. Train Model 
-1. Prediction
+1. Publisher [https://github.com/hanattaw/Iot-class-2025-publisher](https://github.com/hanattaw/Iot-class-2025-publisher)
+1. Subscriber [https://github.com/hanattaw/Iot-class-2025-subscriber](https://github.com/hanattaw/Iot-class-2025-subscriber)
+1. MQTT-Bridge-Kafka [https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka](https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka)
+1. Data to Influxdb [https://github.com/hanattaw/Iot-class-2025-data-to-influxdb](https://github.com/hanattaw/Iot-class-2025-data-to-influxdb)
+1. Kafa-to-JSONL [https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl](https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl)
+1. Train Data [https://github.com/hanattaw/Iot-class-2025-train-from-data](https://github.com/hanattaw/Iot-class-2025-train-from-data)
+1. Predict-then-Infulxdb [https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb](https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb)
 1. Online ML
 1. Device https://github.com/hanattaw/Iot-class-2025-device] (https://github.com/hanattaw/Iot-class-2025-device)
 
 
 
-
-<!-- 
-```json
-{"id": "000000000", "name": "iot_sensor_0", "place_id": "000000000",
- "payload": 
-    {"temperature": 34.36, 
-    "humidity": 44, 
-    "pressure": 1026, 
-    "fan_speed": 3, 
-    "timestamp": 1751210914954, 
-    "date": "2025-06-29T15:28:34"
-    }
-}
-``` -->
