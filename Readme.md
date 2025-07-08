@@ -177,8 +177,29 @@ docker network prune
 1. Kafa-to-JSONL [https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl](https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl)
 1. Train Data [https://github.com/hanattaw/Iot-class-2025-train-from-data](https://github.com/hanattaw/Iot-class-2025-train-from-data)
 1. Predict-then-Infulxdb [https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb](https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb)
-1. Online ML
-1. Device https://github.com/hanattaw/Iot-class-2025-device] (https://github.com/hanattaw/Iot-class-2025-device)
+1. Online ML [https://github.com/hanattaw/Iot-class-2025-online-ml-predict](https://github.com/hanattaw/Iot-class-2025-online-ml-predict)
+1. Device [https://github.com/hanattaw/Iot-class-2025-device](https://github.com/hanattaw/Iot-class-2025-device)
 
 
 
+## Getting Server Containers 
+```bash
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-server
+git clone https://github.com/hanattaw/Iot-class-2025-publisher
+git clone https://github.com/hanattaw/Iot-class-2025-subscriber
+git clone https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka
+git clone https://github.com/hanattaw/Iot-class-2025-data-to-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl
+git clone https://github.com/hanattaw/Iot-class-2025-train-from-data
+git clone https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-online-ml-predict
+
+```
+
+## Getting Gateway Container
+```bash
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-gateway
+
+```
