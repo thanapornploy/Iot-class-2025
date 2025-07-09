@@ -182,6 +182,43 @@ docker network prune
 
 
 
+
+```bash
+# Remove all containers
+docker container prune
+
+# Remove all volumes
+docker volume prune -a 
+
+# Remove all networks
+docker network prune
+
+# Remove all folders
+cd 
+sudo rm -rf Iot-class-2025-server
+sudo rm -rf Iot-class-2025-publisher
+sudo rm -rf Iot-class-2025-subscriber
+sudo rm -rf Iot-class-2025-mqtt-bridge-kafka
+sudo rm -rf Iot-class-2025-data-to-influxdb
+sudo rm -rf Iot-class-2025-kafka-to-jsonl
+sudo rm -rf Iot-class-2025-train-from-data
+sudo rm -rf Iot-class-2025-predict-then-influxdb
+sudo rm -rf Iot-class-2025-online-ml-predict
+
+
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-server
+git clone https://github.com/hanattaw/Iot-class-2025-publisher
+git clone https://github.com/hanattaw/Iot-class-2025-subscriber
+git clone https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka
+git clone https://github.com/hanattaw/Iot-class-2025-data-to-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl
+git clone https://github.com/hanattaw/Iot-class-2025-train-from-data
+git clone https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-online-ml-predict
+
+```
+
 ## Getting Server Containers 
 ```bash
 cd 
