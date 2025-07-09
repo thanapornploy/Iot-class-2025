@@ -124,6 +124,49 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 5. User sees output → Takes action (manual or automatic)
 
 
+
+## Managing contailers
+
+### 1. Remove all containers
+
+```docker
+# list all containers
+docker container ls -a
+
+# remove all containers
+docker container prune
+```
+### 1. Remove all images
+
+```docker
+# list all images
+docker image ls -a
+
+# remove all images
+docker image prune -a 
+```
+
+### 1. Remove all volumes
+
+```docker
+# list all volumes
+docker volume ls -a
+
+# remove all volumes
+docker volume prune -a 
+```
+
+### 1. Remove all networks
+
+```docker
+# list all networks
+docker network ls -a
+
+# remove all networks
+docker network prune
+```
+
+
 ## Containers
 1. Server [https://github.com/hanattaw/Iot-class-2025-server](https://github.com/hanattaw/Iot-class-2025-server)
 1. Gateway [https://github.com/hanattaw/Iot-class-2025-gateway](https://github.com/hanattaw/Iot-class-2025-gateway)
@@ -133,21 +176,65 @@ The goal is to **automate decisions** or **assist human operators** in respondin
 1. Train Model 
 1. Prediction
 1. Online ML
-1. Device [https://github.com/hanattaw/Iot-class-2025-device] (https://github.com/hanattaw/Iot-class-2025-device)
+1. Device https://github.com/hanattaw/Iot-class-2025-device] (https://github.com/hanattaw/Iot-class-2025-device)
 
 
 
 
-<!-- 
-```json
-{"id": "000000000", "name": "iot_sensor_0", "place_id": "000000000",
- "payload": 
-    {"temperature": 34.36, 
-    "humidity": 44, 
-    "pressure": 1026, 
-    "fan_speed": 3, 
-    "timestamp": 1751210914954, 
-    "date": "2025-06-29T15:28:34"
-    }
-}
-``` -->
+```bash
+# Remove all containers
+docker container prune
+
+# Remove all volumes
+docker volume prune -a 
+
+# Remove all networks
+docker network prune
+
+# Remove all folders
+cd 
+sudo rm -rf Iot-class-2025-server
+sudo rm -rf Iot-class-2025-publisher
+sudo rm -rf Iot-class-2025-subscriber
+sudo rm -rf Iot-class-2025-mqtt-bridge-kafka
+sudo rm -rf Iot-class-2025-data-to-influxdb
+sudo rm -rf Iot-class-2025-kafka-to-jsonl
+sudo rm -rf Iot-class-2025-train-from-data
+sudo rm -rf Iot-class-2025-predict-then-influxdb
+sudo rm -rf Iot-class-2025-online-ml-predict
+
+
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-server
+git clone https://github.com/hanattaw/Iot-class-2025-publisher
+git clone https://github.com/hanattaw/Iot-class-2025-subscriber
+git clone https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka
+git clone https://github.com/hanattaw/Iot-class-2025-data-to-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl
+git clone https://github.com/hanattaw/Iot-class-2025-train-from-data
+git clone https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-online-ml-predict
+
+```
+
+## Getting Server Containers 
+```bash
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-server
+git clone https://github.com/hanattaw/Iot-class-2025-publisher
+git clone https://github.com/hanattaw/Iot-class-2025-subscriber
+git clone https://github.com/hanattaw/Iot-class-2025-mqtt-bridge-kafka
+git clone https://github.com/hanattaw/Iot-class-2025-data-to-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-kafka-to-jsonl
+git clone https://github.com/hanattaw/Iot-class-2025-train-from-data
+git clone https://github.com/hanattaw/Iot-class-2025-predict-then-influxdb
+git clone https://github.com/hanattaw/Iot-class-2025-online-ml-predict
+
+```
+
+## Getting Gateway Container
+```bash
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-gateway
+
+```
