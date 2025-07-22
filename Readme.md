@@ -240,3 +240,12 @@ cd
 git clone https://github.com/hanattaw/Iot-class-2025-gateway
 
 ```
+
+
+## Getting Web Publisher
+```bash
+cd 
+git clone https://github.com/hanattaw/Iot-class-2025-flask-publisher
+
+```
+
