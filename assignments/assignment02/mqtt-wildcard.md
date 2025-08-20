@@ -5,18 +5,18 @@
 
 > Objective: Only receive messages that belong to your student ID.
 
-Answer: 
+Answer: test/qos/6510301018/#
 
 
 ## Part 2: Subscribe to all students’ temperature data
 
 > Objective: Receive temperature data from every student.
 
-Answer: 
+Answer: test/qos/+/temperature
 
 
 ## Part 3: Subscribe to all messages under test/qos/
 
 > Objective: Receive all sensor messages from all students.
 
-Answer: 
+Answer: test/qos/#
